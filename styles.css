@@ -2,11 +2,12 @@
   background-color: black;
   font-family: Arial, Helvetica, sans-serif;
   color: seashell;
-  opacity: 0.9;
-
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+body {
+  opacity: 0.9;
 }
 #logo {
   height: 50px;
@@ -32,14 +33,54 @@ nav {
 ul > li {
   display: inline;
   text-decoration: underline;
+  padding: 0 10px;
 }
 
 main {
-  display: block;
-  margin-top: 69px;
-  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.top {
+  height: 700px;
+  max-width: 1200px;
+  background-image: url("./media/img-mission-background.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topText {
+  width: 1200px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.middle {
+  height: 700px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.middleTop {
+  text-align: center;
+}
+.middleImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.Img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+}
 footer {
   position: static;
   text-align: left;
