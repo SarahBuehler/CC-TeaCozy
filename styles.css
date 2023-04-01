@@ -63,12 +63,13 @@ main {
   height: 700px;
   width: 1000px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-content: center;
   flex-direction: column;
 }
 .middleTop {
   text-align: center;
+  line-height: 40px;
 }
 .middleImages {
   display: flex;
@@ -82,7 +83,6 @@ main {
   margin: 10px 10px;
 }
 .bottom {
-  text-align: center;
   height: 500px;
   width: 1200px;
   background-image: url("./media/img-locations-background.jpg");
@@ -93,7 +93,7 @@ main {
 }
 .bottomTop {
   width: 1200px;
-  text-align: center;
+
   padding: 10px 0;
   background-color: transparent;
 }
@@ -115,6 +115,7 @@ main {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  opacity: 1;
 }
 .location p {
   margin-top: 20px;
