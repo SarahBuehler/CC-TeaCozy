@@ -93,7 +93,7 @@ main {
 }
 .bottomTop {
   width: 1200px;
-
+  text-align: center;
   padding: 10px 0;
   background-color: transparent;
 }
